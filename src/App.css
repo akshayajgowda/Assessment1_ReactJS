@@ -31,3 +31,21 @@
     transform: rotate(360deg);
   }
 }
+
+.cartname{
+  margin: 0px auto;
+    text-align: center;
+    padding: 10px 0px;
+    box-shadow: 6px 4px 15px 3px #888888;
+    background: #f1f1f1
+}
+
+.counterNum{
+  text-align: center;
+  width: 100%;
+  display: block;
+  background: #333;
+  color: #fff;
+
+}
+

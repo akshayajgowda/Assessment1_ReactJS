@@ -1,0 +1,160 @@
+button{
+  margin: 0px 10px;
+  background-color: red;
+  border: 0px;
+  padding: 4px;
+  color: #fff;
+  font-size: 18px;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+h4{
+  background-color: red;
+  color: #fff;
+}
+
+.search button {
+  padding: 0px 4px;
+}
+
+.search input {
+  width: 50%;
+}
+
+.Header{
+  background: Gray;
+    padding: 10px;
+
+}
+
+
+.Header li{
+  list-style: none;
+  color: #fff;
+  display: inline-block;
+  width: 50%;
+
+}
+
+
+.Content {
+  float: left;
+  width: 35%;
+}
+
+.btnDiv {
+  width: 28%;
+  float: left;
+  padding-top: 77px;
+}
+
+.marginbtn {
+  clear: both;
+}
+
+.marginbtn table th:nth-child(1) {
+  width: 25%;
+}
+
+.marginbtn table th:nth-child(2) {
+  width: 35%;
+}
+
+.marginbtn table th:nth-child(3) {
+  width: 20%;
+}
+
+.marginbtn table th:nth-child(4) {
+  width: 20%;
+}
+
+.marginbtn table h2 {
+  margin: 10px 0px;
+}
+
+.marginbtn table h3 {
+  margin: 10px 0px;
+}
+
+.marginbtn table th {
+  border-right: 1px solid #be8127;
+}
+
+.marginbtn {
+  clear: both;
+  border-top: 1px solid #be8127;
+  border-bottom: 1px solid #be8127;
+}
+
+.Header li:last-child {
+  text-align: right;
+}
+
+.Header li:last-child span {
+  background: #be8127;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.footershop p{
+  margin: 0px;
+    padding: 15px 0px;
+    color: #fff;
+    background: grey;
+    text-align: center;
+}
+
+@media (max-width: 479px) {
+  .marginbtn table th:nth-child(1) {
+    width: 100%;
+  }
+  
+  .marginbtn table th:nth-child(2) {
+    width: 100%;
+  }
+  
+  .marginbtn table th:nth-child(3) {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  
+  .marginbtn table th:nth-child(4) {
+    width: 100%;
+    margin: 10px 0px 30px;
+  }
+  table, thead, tbody, th, td, tr {
+    display: block;
+    }
+    
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    }
+    
+    tr { }
+    
+    td {
+    /* Behave like a "row" */
+    
+    position: relative;
+    text-align:center;
+    
+    }
+    
+    td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    
+    white-space: nowrap;
+    }
+}
